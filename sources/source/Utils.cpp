@@ -40,7 +40,3 @@ int Utils::Random(int min, int max)
 	int random = rand() % max + min;
 	return random;
 }
-int Add(int a, int b)
-{
-return a + b;
-}
