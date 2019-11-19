@@ -1,0 +1,27 @@
+From dfcc0faca89cabe41bf6fad558397f4355604254 Mon Sep 17 00:00:00 2001
+From: Nguyen Van Linh <you@example.com>
+Date: Tue, 19 Nov 2019 15:31:02 +0700
+Subject: [PATCH] update file Utils.cpp
+
+---
+ sources/Utils.cpp | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+diff --git a/source/Utils.cpp b/source/Utils.cpp
+index 4db3128..9285c66 100644
+--- a/source/Utils.cpp
++++ b/source/Utils.cpp
+@@ -39,4 +39,8 @@ int Utils::Random(int min, int max)
+ {
+ 	int random = rand() % max + min;
+ 	return random;
+-}
+\ No newline at end of file
++}
++int Add(int a, int b)
++{
++return a + b;
++}
+-- 
+2.23.0.windows.1
+
